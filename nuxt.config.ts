@@ -11,5 +11,8 @@ export default defineNuxtConfig({
       tailwindcss: {},
       autoprefixer: {},
     }
+  },
+  router: {
+    base: '/churchminor/'
   }
 })
