@@ -12,7 +12,8 @@ export default defineNuxtConfig({
       autoprefixer: {},
     }
   },
-  router: {
-    base: '/churchminor/'
-  }
+  app: {
+    baseURL: '/churchminor/',
+    buildAssetsDir: 'assets'
+  },
 })
